@@ -5,6 +5,7 @@ Leader election tool with local network check.
 go build -o election election.go
 
 ./election --help
+
 Usage of ./election:
   -e string
         etcd host(:port) (default "http://127.0.0.1:2379")
