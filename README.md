@@ -10,7 +10,7 @@ Usage of ./election:
 
   -e string
   
-        etcd host(:port) (default "http://127.0.0.1:2379")
+        etcd host:port (default "http://127.0.0.1:2379")
         
   -h string
   
