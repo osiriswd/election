@@ -17,7 +17,7 @@ import (
 var (
 	service    = flag.String("s", "service", "service name")
 	host       = flag.String("h", "host1", "hostname")
-	endpoint   = flag.String("e", "http://127.0.0.1:2379", "etcd host(:port)")
+	endpoint   = flag.String("e", "http://127.0.0.1:2379", "etcd host:port")
 	listenport = flag.String("l", "8000", "listen port")
 )
 
