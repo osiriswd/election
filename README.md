@@ -31,5 +31,7 @@ Usage of ./election:
 #{"service":"service name","host":"hostname","status":1}
 
 status = 1: leader
+
 status = 0: follower
+
 status = -1: disconnected from etcd cluster (or local network failure)
