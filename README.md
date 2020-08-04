@@ -1,5 +1,5 @@
 # GOLANG leader election based on etcd
-Leader election tool with self-check.
+Leader election tool with local network check.
 
 # Usage
 go build -o election election.go
