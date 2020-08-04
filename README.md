@@ -1,4 +1,4 @@
-# GOLANG election based on etcd
+# GOLANG leader election based on etcd
 Leader election tool with self-check.
 
 # Usage
